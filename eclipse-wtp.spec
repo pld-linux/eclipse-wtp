@@ -5,8 +5,8 @@
 Summary:	Web Tools Platform
 Name:		eclipse-%{module}
 Version:	%{_ver_major}.%{_ver_minor}
-Release:	0.1
-License:	CPL
+Release:	0.2
+License:	EPL v1.0
 Group:		Development/Tools
 Source0:	http://download.eclipse.org/webtools/downloads/drops/R%{_ver_major}/R-%{version}-%{_buildid}/%{module}-R-%{version}-%{_buildid}.zip
 # Source0-md5:	ef6ee106fae286499a268b32c73cbb56
@@ -20,7 +20,7 @@ Requires:	eclipse-xsd >= 2.2.1
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define	_eclipsedir	%{_datadir}/eclipse
+%define	_eclipsedir	%{_libdir}/eclipse
 
 %description
 Web Tools Platform.
