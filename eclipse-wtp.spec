@@ -3,6 +3,7 @@
 %define		_ver_minor	1
 %define		_buildid	200609230508
 Summary:	Web Tools Platform
+Summary(pl):	Web Tools Platform - platforma narzêdzi WWW
 Name:		eclipse-%{module}
 Version:	%{_ver_major}.%{_ver_minor}
 Release:	0.2
@@ -17,13 +18,15 @@ Requires:	eclipse-emf-sdo >= 2.2.1
 Requires:	eclipse-gef >= 3.2.1
 Requires:	eclipse-jem >= 1.2.1
 Requires:	eclipse-xsd >= 2.2.1
-BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define	_eclipsedir	%{_libdir}/eclipse
 
 %description
 Web Tools Platform.
+
+%description -l pl
+Web Tools Platform - platforma narzêdzi WWW.
 
 %prep
 %setup -q -c
