@@ -3,7 +3,7 @@
 %define		_ver_minor	1
 %define		_buildid	200609230508
 Summary:	Web Tools Platform
-Summary(pl.UTF-8):   Web Tools Platform - platforma narzędzi WWW
+Summary(pl.UTF-8):	Web Tools Platform - platforma narzędzi WWW
 Name:		eclipse-%{module}
 Version:	%{_ver_major}.%{_ver_minor}
 Release:	0.2
