@@ -1,17 +1,19 @@
+# TODO
+# - build noarch
 %define		module		wtp
-%define		_ver_major	1.5
-%define		_ver_minor	1
-%define		_buildid	200609230508
+%define		ver_major	2.0
+%define		ver_minor	%{nil}
+%define		buildid	200706260303
 Summary:	Web Tools Platform
 Summary(pl.UTF-8):	Web Tools Platform - platforma narzędzi WWW
 Name:		eclipse-%{module}
-Version:	%{_ver_major}.%{_ver_minor}
+Version:	%{ver_major}
 Release:	0.2
 License:	EPL v1.0
 Group:		Development/Tools
-Source0:	http://download.eclipse.org/webtools/downloads/drops/R%{_ver_major}/R-%{version}-%{_buildid}/%{module}-R-%{version}-%{_buildid}.zip
-# Source0-md5:	ef6ee106fae286499a268b32c73cbb56
-#URL:		
+Source0:	http://archive.eclipse.org/webtools/downloads/drops/R%{ver_major}/R-%{version}-%{buildid}/%{module}-sdk-R-%{version}-%{buildid}.zip
+# Source0-md5:	c968db511655b0c55e02b4faab0efb55
+URL:		http://www.eclipse.org/webtools/
 BuildRequires:	unzip
 Requires:	eclipse >= 3.2
 Requires:	eclipse-emf-sdo >= 2.2.1
@@ -20,7 +22,7 @@ Requires:	eclipse-jem >= 1.2.1
 Requires:	eclipse-xsd >= 2.2.1
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define	_eclipsedir	%{_libdir}/eclipse
+%define		_eclipsedir	%{_libdir}/eclipse
 
 %description
 Web Tools Platform.
