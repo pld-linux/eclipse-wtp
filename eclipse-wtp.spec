@@ -16,7 +16,7 @@ Source0:	http://archive.eclipse.org/webtools/downloads/drops/R%{ver_major}/R-%{v
 URL:		http://www.eclipse.org/webtools/
 BuildRequires:	unzip
 Requires:	eclipse >= 3.2
-Requires:	eclipse-emf-sdo >= 2.2.1
+Requires:	eclipse-emf-sdo-xsd >= 2.2.1
 Requires:	eclipse-gef >= 3.2.1
 Requires:	eclipse-jem >= 1.2.1
 Requires:	eclipse-xsd >= 2.2.1
