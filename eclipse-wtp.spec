@@ -8,7 +8,7 @@ Summary:	Web Tools Platform
 Summary(pl.UTF-8):	Web Tools Platform - platforma narzędzi WWW
 Name:		eclipse-%{module}
 Version:	%{ver_major}
-Release:	1
+Release:	2
 License:	EPL v1.0
 Group:		Development/Tools
 Source0:	http://archive.eclipse.org/webtools/downloads/drops/R%{ver_major}/R-%{version}-%{buildid}/%{module}-sdk-R-%{version}-%{buildid}.zip
